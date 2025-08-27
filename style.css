@@ -88,7 +88,6 @@ a:hover {
     height: 64px;
     width: auto;
     display: block;
-    margin: 0 auto;
 }
 .navigation {
     display: flex;
@@ -96,7 +95,6 @@ a:hover {
     flex-wrap: wrap;
     justify-content: center;
     gap: 32px;
-    margin-bottom: 80px;
 }
 
 .header {
@@ -104,13 +102,11 @@ a:hover {
     flex-direction: column;
     align-items: center;
     gap: 16px;
-    margin-top: 80px;
 }
 
 
 .footer {
     text-align: center;
-    margin-top: 80px;
 }
 
 .article {
@@ -142,7 +138,25 @@ a.feature-metadata-item {
 .wrapper {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    margin: 80px auto;
+    gap: 80px;
     max-width: 1150px;
 }
 
+.blogs {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.blog-item {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.blog-data {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
